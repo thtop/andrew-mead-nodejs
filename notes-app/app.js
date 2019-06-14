@@ -1,5 +1,3 @@
-const fs = require('fs')
+const test = require('./notes')
 
-//fs.writeFileSync('notes.txt', 'My name is Thamonwan.')
-
-fs.appendFileSync('notes.txt', ' I live in Thailand.')
+console.log(test())
